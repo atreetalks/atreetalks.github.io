@@ -40,11 +40,11 @@ main{
 }
 @font-face{
     font-family: 'News Cycle';
-    src: url('../fonts/news_cycle.ttf') format('truetype');
+    src: url('../fontsintro/news_cycle.ttf') format('truetype');
 }
 @font-face{
     font-family: 'Contrail One';
-    src: url('../fonts/contrail_one.ttf') format('truetype');
+    src: url('../fontsintro/contrail_one.ttf') format('truetype');
 }
 body{
      font-family: 'News Cycle';
