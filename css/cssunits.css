@@ -9,7 +9,7 @@ li{
      font-size: .8rem;
      font-family: Courier New, Lucida Consle, sans-serif;
      margin: 10px 0px 10px 20px; 
-     list-style-image: url("images/my_triangle.png");
+     list-style-image: url("../images/my_triangle.png");
 }
 h1{ 
      font-size: 20px;
