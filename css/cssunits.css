@@ -1,0 +1,20 @@
+body, html{
+    font-size: 30px;
+    background-color:beige;
+}
+ul{
+    background-color: antiquewhite;
+}
+li{ 
+     font-size: .8rem;
+     font-family: Courier New, Lucida Consle, sans-serif;
+     margin: 10px 0px 10px 20px; 
+     list-style-image: url("images/my_triangle.png");
+}
+h1{ 
+     font-size: 20px;
+     text-align: center; 
+     margin-bottom: 50px; 
+     font-family: Comic Sans MS, Courier New, Lucida Consle, sans-serif; 
+     color: darkred; 
+} 
