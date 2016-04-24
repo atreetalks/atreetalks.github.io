@@ -1,0 +1,20 @@
+body, html{
+     font-family: (Courier New, Lucida Consle, sans-serif);
+     margin:20px;
+}
+
+#middlemarch{
+    list-style-type: lower-roman;
+    margin: 10px 60px;
+    line-height: 3.0rem;
+ }
+
+#taletwocities{
+    list-style-type: lower-alpha;
+    
+}
+
+.bluef{color: blue;}
+.redm{color: red;}
+.bolda{font-weight: bold;}
+.itialize{font-style:italic;}
