@@ -1,0 +1,28 @@
+body, html{
+    font-family: monospace, sans, sans-serif;
+    font-size: 20px;
+    margin: 30px;
+}
+h1 {
+    background-color:aliceblue;
+    text-align: center;
+}
+
+p {
+   font-weight: bold;
+}
+imag {
+    width: 300px;
+        
+}
+article {
+    margin-left: 40px;
+}
+nav {
+    background-color:bisque;
+    width: 20em;
+    
+}
+#lineunder {
+    text-decoration-line: underline;
+}
