@@ -1,0 +1,60 @@
+
+.element{
+     background: repeating-radial-gradient(red, yellow 10%, green 15%); 
+    margin: 100px;
+    padding: 50px;
+    border: 10px solid yellow;
+    background-color: lightblue;
+}
+.shape{
+    margin: 50px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(-90deg, red, yellow); 
+    border-style:inset;
+    border-width: 50px;
+    border-color:black;   
+}
+.sqtrans{
+    margin:200px 0px 0px 500px;
+    padding: 10px;
+    border: 20px solid navy;
+    background-color: yellow;
+}
+.circle{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+    border: 10px solid #73AD21;
+    background-color:cyan;
+}
+.trans{
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s, transform 2s;
+    transition-timing-function:ease-in-out; 
+} 
+.trans:hover {
+    width: 300px;
+}
+
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+#advanced {
+    margin: 100px;
+    border-radius: 50%;
+	width: 200px;
+	height: 200px;
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, red);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+	
+    animation-name: spin;
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+}
+ 
