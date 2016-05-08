@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Week5-Table Two</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <style>
+        html{background-color:cornsilk }
+    </style>
+</head>
+
+<body>
+    <section>
+        <p>Audio Player</p>
+        <audio src="audio/NightSounds-Crickets-Lisa.wav" controls autoplay muted>
+            Sorry! Your browser does not support the audio file.
+        </audio>
+    </section>
+
+    <section>
+        <p>Audio Player Multiple Browsers</p>
+        <audio controls autoplay muted>
+            <source src="audio/NightSounds-Crickets-Lisa.wav" type="audio/wav">
+            <source src="audio/NightSounds-Crickets-Lisa.mp3" type="audio/mp3"> Sorry! Your browser does not support the audio file.
+        </audio>
+    </section>
+
+    <section>
+        <p>Video Player Multiple Browsers</p>
+        <video src="media/stairs.mp4" controls poster height="277" width="492">
+            <source src="media/small.flv" type="video/flv">
+            <source src="media/small.ogv" type="video/ogv">
+            <source src="media/small.webm" type="video/webm"> Sorry! Your browser does not support the video file.
+        </video>
+    </section>
+    
+    <section>
+        <p>Video Player With Track Element WebVTT</p>
+        <video controls poster height="277" width="492">
+            <source src="media/video-activity.mp4" type="video/mp4">
+            <track src="media/week5-captions.vtt" kind="captions" srclang="en" label="English" default>
+                Sorry! Your browser does not support the video file.
+        </video>
+    </section>
+    <p> The above samples where for Week 5 - Video Activities!</p>
+
+</body>
+
+</html>
