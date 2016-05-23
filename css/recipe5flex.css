@@ -1,0 +1,133 @@
+body,
+html {
+    font-family: monospace, sans, sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+}
+
+img {
+    width: 400px;
+    border: 5px solid lightblue;
+    padding: 10px;
+}
+
+article {
+    margin-top: 50px;
+}
+
+nav {
+    background-color: black;
+}
+
+nav a {
+    color: white;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+nav ul {
+    padding-left: 10px;
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+ul,
+ol {
+    margin-left: 180px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td.amount {
+    text-align: left;
+    padding-left: 3em;
+}
+
+td.ingredients {
+    text-align: left;
+    padding-left: 3em;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    margin-left: 2em;
+    margin-top: 2em font-size: 15px;
+    border: 1px solid lightblue;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 500px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-flex;
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.box1 {
+    order: 1;
+    height: 100px;
+    flex: 0 1 100%;
+}
+
+.box2 {
+    order: 2;
+    flex: 0 1 200px;
+}
+
+.box3 {
+    order: 3;
+    flex: 1;
+}
+
+.box4 {
+    order: 4;
+    flex: 0 1 200px;
+}
+
+.box5 {
+    order: 5;
+    flex: 0 1 100px;
+}
+
+.box6 {
+    order: 6;
+    flex: 0 1 300px;
+}
